@@ -1,0 +1,61 @@
+* {
+    -webkit-backface-visibility: hidden;
+}
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+    background-color: white;
+    color: #333;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px dashed #ddd;
+}
+
+#kaizen {
+    text-align: center;
+}
+
+#kaizen > #main {
+    width: 80rem;
+    height: 30rem;
+    margin: 0 auto;
+    text-align: left;
+    clear: both;
+}
+
+#kaizen > #main > .step {
+    float: left;
+    margin: 2rem 0 0 1rem;
+    width: 18rem;
+    height: 18rem;
+    border: 1px solid #888;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 18rem;
+}
+
+#kaizen > header > h4 {
+    margin: 0;
+    margin-top: -20px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+#kaizen > footer {
+    margin: 0 auto;
+    width: 80rem;
+    border-top: 1px solid #888;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
