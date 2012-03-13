@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 2rem;
-    background-color: white;
+    background-color: #eee;
     color: #333;
 }
 
@@ -24,7 +24,15 @@ a {
     text-align: center;
 }
 
+#kaizen > header {
+    background-color: white;
+}
+
 #kaizen > #main {
+    background-color: white;
+}
+
+#kaizen > #main > #container {
     width: 80rem;
     height: 30rem;
     margin: 0 auto;
@@ -32,17 +40,17 @@ a {
     clear: both;
 }
 
-#kaizen > #main > .step {
+#kaizen > #main > #container > .step {
     float: left;
     margin: 2rem 0 0 1rem;
-    width: 18rem;
-    height: 18rem;
+    width: 18.5rem;
+    height: 18.5rem;
     border: 1px solid #888;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     text-align: center;
     font-size: 1.4rem;
-    line-height: 18rem;
+    line-height: 18.5rem;
 }
 
 #kaizen > header > h4 {
@@ -53,9 +61,6 @@ a {
 }
 
 #kaizen > footer {
-    margin: 0 auto;
-    width: 80rem;
-    border-top: 1px solid #888;
     font-size: 1.4rem;
     line-height: 3rem;
 }
