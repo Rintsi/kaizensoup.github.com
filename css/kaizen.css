@@ -12,12 +12,23 @@ body {
     line-height: 2rem;
     background-color: #eee;
     color: #333;
+    font-family: 'Walter Turncoat', 'tahoma', 'verdana', sans-serif;
 }
 
 a {
     color: #555;
     text-decoration: none;
     border-bottom: 1px dashed #ddd;
+}
+
+p {
+    margin: 0;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+p:first-child {
+    padding-top: 2rem;
 }
 
 #kaizen {
@@ -28,16 +39,33 @@ a {
     background-color: white;
 }
 
+#kaizen > header > h4 {
+    margin: 0;
+    margin-top: -20px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
 #kaizen > #main {
     background-color: white;
 }
 
+
+#kaizen > #main > hr {
+    margin-top: 3rem;
+    clear: both;
+}
+
 #kaizen > #main > #container {
     width: 80rem;
-    height: 30rem;
     margin: 0 auto;
     text-align: left;
+    margin-bottom: 3rem;
+}
+
+#kaizen > #main > #container > hr {
     clear: both;
+    visibility: hidden;
 }
 
 #kaizen > #main > #container > .step {
@@ -51,13 +79,6 @@ a {
     text-align: center;
     font-size: 1.4rem;
     line-height: 18.5rem;
-}
-
-#kaizen > header > h4 {
-    margin: 0;
-    margin-top: -20px;
-    font-size: 1.4rem;
-    line-height: 2rem;
 }
 
 #kaizen > footer {
